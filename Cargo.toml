@@ -6,13 +6,13 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-candle-transformers = { path = "../candle/candle-transformers", version = "0.5.1", features = [
+candle-transformers = { git = "https://github.com/huggingface/candle", version = "0.5.1", features = [
     "cuda",
 ] }
-candle-nn = { path = "../candle/candle-nn", version = "0.5.1", features = [
+candle-nn = { git = "https://github.com/huggingface/candle", version = "0.5.1", features = [
     "cuda",
 ] }
-candle-core = { path = "../candle/candle-core", version = "0.5.1", features = [
+candle-core = { git = "https://github.com/huggingface/candle", version = "0.5.1", features = [
     "cuda",
 ] }
 serde = { version = "1.0.171", features = ["derive"] }

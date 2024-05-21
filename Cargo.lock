@@ -99,6 +99,7 @@ checksum = "1fd0f2584146f6f2ef48085050886acf353beff7305ebd1ae69500e27c67f64b"
 [[package]]
 name = "candle-core"
 version = "0.5.1"
+source = "git+https://github.com/huggingface/candle#7ebc3548e19fb8d40940fa2315b3f817058e7e96"
 dependencies = [
  "byteorder",
  "candle-kernels",
@@ -120,6 +121,7 @@ dependencies = [
 [[package]]
 name = "candle-kernels"
 version = "0.5.1"
+source = "git+https://github.com/huggingface/candle#7ebc3548e19fb8d40940fa2315b3f817058e7e96"
 dependencies = [
  "bindgen_cuda",
 ]
@@ -127,6 +129,7 @@ dependencies = [
 [[package]]
 name = "candle-nn"
 version = "0.5.1"
+source = "git+https://github.com/huggingface/candle#7ebc3548e19fb8d40940fa2315b3f817058e7e96"
 dependencies = [
  "candle-core",
  "half",
@@ -140,6 +143,7 @@ dependencies = [
 [[package]]
 name = "candle-transformers"
 version = "0.5.1"
+source = "git+https://github.com/huggingface/candle#7ebc3548e19fb8d40940fa2315b3f817058e7e96"
 dependencies = [
  "byteorder",
  "candle-core",
